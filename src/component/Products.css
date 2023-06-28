@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    height: 150px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+.product img {
+    width: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product .name,
+.product .price {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.product .name {
+    font-weight: bold;
+}
+
+.product:hover {
+    background: #dadada;
+}
